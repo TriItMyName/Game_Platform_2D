@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/DoAn_MyGame/GamePlatform/Packages/manifest.json
+    m_FilePath: D:/ProjectGame/DoAn_MyGame/GamePlatform/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638833329439500012
-    m_Hash: 3258163319
+      ticks: 638929937026818876
+    m_Hash: 2638082139
   m_LockFileStatus:
-    m_FilePath: D:/DoAn_MyGame/GamePlatform/Packages/packages-lock.json
+    m_FilePath: D:/ProjectGame/DoAn_MyGame/GamePlatform/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638833329439576633
-    m_Hash: 2918791031
+      ticks: 638929937836936972
+    m_Hash: 1955786399
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/DoAn_MyGame/GamePlatform/Packages
-m_EditorVersion: 6000.2.0a6 (249fe0a196c2)
+m_ProjectPath: D:/ProjectGame/DoAn_MyGame/GamePlatform/Packages
+m_EditorVersion: 6000.2.0f1 (eed1c594c913)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@3.1.3
   testable: 0
   isDirectDependency: 1
   version: 3.1.3
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.cinemachine@624f919d8cdd
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.cinemachine@624f919d8cdd
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -128,7 +128,6 @@ m_ResolvedPackages:
     - 3.1.3
     - 3.1.4
     compatible:
-    - 2.10.3
     - 2.10.4
     - 3.0.0-pre.3
     - 3.0.0-pre.4
@@ -152,13 +151,13 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.splines
-    version: 2.7.2
+    version: 2.8.1
   - name: com.unity.mathematics
     version: 1.3.2
-  - name: com.unity.settings-manager
-    version: 2.0.1
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.0
   keywords:
   - camera
   - follow
@@ -190,6 +189,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -203,11 +205,12 @@ m_ResolvedPackages:
     revision: 23940e5601df6628d349dc9d1912bd2bb34ad631
     path: 
   unityLifecycle:
-    version: 2.10.3
+    version: 2.10.4
     nextVersion: 
     recommendedVersion: 3.1.0
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -234,14 +237,20 @@ m_ResolvedPackages:
   fingerprint: 624f919d8cdd376712eda21b43abcb0330c023e2
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.10.3
+    minimumPackageVersion: 2.10.4
     minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -336,11 +345,15 @@ m_ResolvedPackages:
     - 2.7.1
     - 2.8.1
     - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
     compatible:
-    - 2.7.1
-    - 2.8.1
     - 2.8.2
-    recommended: 2.7.1
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    recommended: 2.8.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -368,6 +381,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -381,11 +397,12 @@ m_ResolvedPackages:
     revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
     path: 
   unityLifecycle:
-    version: 2.7.1
+    version: 2.8.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -399,14 +416,20 @@ m_ResolvedPackages:
   fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.7.1
+    minimumPackageVersion: 2.8.2
     minimumUnityVersion: 2021.3.0f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.feature.2d@2.0.1
   testable: 0
   isDirectDependency: 1
   version: 2.0.1
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -448,11 +471,11 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 10.1.4
+    version: 12.0.2
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -472,31 +495,31 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.2d.pixel-perfect
-    version: 5.0.3
+    version: 5.1.0
   - name: com.unity.2d.psdimporter
-    version: 10.0.0
-  - name: com.unity.2d.spriteshape
-    version: 10.0.7
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
+    version: 11.0.1
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.modules.tilemap
     version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.2d.spriteshape
+    version: 12.0.1
   - name: com.unity.2d.tilemap.extras
-    version: 4.2.1
+    version: 5.0.1
   - name: com.unity.2d.aseprite
-    version: 1.2.1
+    version: 2.0.1
   keywords: []
   registry:
     id: main
@@ -506,6 +529,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -524,6 +550,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -537,12 +564,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.1
     minimumUnityVersion: 
-- packageId: com.unity.ide.rider@3.0.34
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 1
-  version: 3.0.34
+  version: 3.0.36
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ide.rider@ecbf706690e5
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -604,11 +637,11 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     - 3.0.36
+    - 3.0.37
     compatible:
-    - 3.0.34
-    - 3.0.35
     - 3.0.36
-    recommended: 3.0.36
+    - 3.0.37
+    recommended: 3.0.37
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -625,43 +658,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638651995659960000
+  datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
-    version: 3.0.34
+    version: 3.0.36
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
+  upmReserved: '{"changelog":"- fix RIDER-124592 Avoid affecting \"Strip Engine Code\"
+    while IL2CPP debug enabled"}'
   assetStore:
     productId: 
-  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
+  fingerprint: 4d374c7eb6db6907c7e6925e3086c3c73f926e13
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.34
+    minimumPackageVersion: 3.0.36
     minimumUnityVersion: 2019.4.6f1
-- packageId: com.unity.ide.visualstudio@2.0.22
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 1
-  version: 2.0.22
+  version: 2.0.23
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -670,7 +714,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -703,7 +747,6 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     compatible:
-    - 2.0.22
     - 2.0.23
     recommended: 2.0.23
     deprecated: []
@@ -712,7 +755,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -728,48 +771,57 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
     path: 
   unityLifecycle:
-    version: 2.0.22
+    version: 2.0.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
-    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
-    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
-    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
-    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
-    Prevent circular dependency errors with SDK-Style projects."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
+    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
+    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
+    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
+    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.22
+    minimumPackageVersion: 2.0.23
     minimumUnityVersion: 2019.4.25f1
-- packageId: com.unity.inputsystem@1.13.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.inputsystem@1.14.1
   testable: 0
   isDirectDependency: 1
-  version: 1.13.1
+  version: 1.14.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.inputsystem@e2c83221d2dc
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.inputsystem@978211393e28
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -842,11 +894,9 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     compatible:
-    - 1.13.1
-    - 1.14.0
     - 1.14.1
     - 1.14.2
-    recommended: 1.13.1
+    recommended: 1.14.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -881,51 +931,95 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638754888961480000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/index.html
+  datePublishedTicks: 638877313747820000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: b026bb79971869f971db20399152e375b31bae01
+    revision: 5f79385f7037a45b3871a30c4bacfbfa0aedb978
     path: 
   unityLifecycle:
-    version: 1.13.1
+    version: 1.14.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed a problem with the logic to get
-    the active player settings object that cause an infinit reimport loop. [ISXB-1430](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-96793)\n-
-    Fixed an issue where removing a newly created action in the Asset Editor would
-    cause an exception. [UUM-95693](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-95693)\n-
-    Fixed arrow key navigation of Input Actions after Action rename. [ISXB-1024](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1024)\n-
-    Fixed gamepad navigation in UI Toolkit TextField when using InputSystemUIInputModule.
-    [UUM-77364](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-77364)\n-
-    Fixed issue where asset editor window splitter positions were not persisted [ISXB-1316]\n\n###
-    Changed\n- Changed default input action asset name from New Controls to New Actions."}'
+  upmReserved: '{"changelog":"### Added\n\n- Support for Xbox controllers over USB
+    on macOS, using macOS''s default driver. [ISXB-1548]\n\n### Fixed\n- Fixed an
+    analytics event being invoked twice when the Save button in the Actions view
+    was pressed. [ISXB-1378](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1378)\n-
+    Fixed an issue causing a number of errors to be displayed when using `InputTestFixture`
+    in playmode tests with domain reloading disabled on playmode entry. [ISXB-1446](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1446)\n-
+    Fixed issue where user was not prompted to save changes when loading a second
+    input actions asset into an already opened editor. [ISXB-1343](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1343)\n-
+    Fixed the on hover behaviour of the two plus buttons in the Input Actions Editor
+    window [ISXB-1327](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1327)\n-
+    Fixed an issue on macOS which didn''t detect up-left DPAD presses for Xbox controllers.
+    [ISXB-810](https://issuetracker.unity3d.com/issues/macos-d-pad-upper-left-corner-is-not-logged-with-the-xbox-controller)\n-
+    Fixed Input Actions code generation overwriting user files when the names happened
+    to match. [ISXB-1257](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1257)\n-
+    Fixed Input Actions code generation using locale-dependent rules when lowercasing
+    and uppercasing strings. [ISXB-1406]\n- Fixed an issue when providing JoinPlayer
+    with a specific split screen index. [ISXB-897](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-897)\n-
+    Fixed Inspector Window being refreshed all the time when a PlayerInput component
+    is present with Invoke Unity Events nofication mode chosen [ISXB-1448](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1448)\n-
+    Fixed an issue where an action with a name containing a slash \"/\" could not
+    be found via `InputActionAsset.FindAction(string,bool)`. [ISXB-1306](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1306).\n-
+    Fixed Gamepad stick up/down inputs that were not recognized in WebGL. [ISXB-1090](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1090)\n-
+    Fixed reenabling the VirtualMouseInput component may sometimes lead to NullReferenceException.
+    [ISXB-1096](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1096)\n-
+    Fixed the default button press point not being respected in Editor (as well as
+    some other Touchscreen properties). [ISXB-1152](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1152)\n-
+    Fixed the TreeView compilation warnings when used with Unity 6.2 beta (ISX-2320)\n-
+    Fixed actions being reset when disabling the InputSystemUIInputModule component
+    [ISXB-1493](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1493)\n-
+    Fixed a memory leak when disabling and enabling the InputSystemUIInputModule
+    component at runtime [ISXB-1573](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1573)\n-
+    Fixed all InputControls being changed at once when you change just one by reverting
+    `2a37caac288ac09bc9122234339dc5df8d3a0ca6`, which was an attempt at fixing [ISXB-1221]
+    that introduced this regression [ISXB-1531] (https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1493)\n-
+    Fixed PlayerInput component automatically switching away from the default ActionMap
+    set to ''None''.\n- Fixed a console error being shown when targeting visionOS
+    builds in 2022.3.\n- Fixed a Tap Interaction issue with analog controls. The
+    Tap interaction would keep re-starting after timeout. [ISXB-627](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-627)\n-
+    Fixed the defaultActionMap dropdown in the PlayerInput component defaulting to
+    <None> instead of the first ActionMap.\n- Fixed TrackedPoseDriver stops updating
+    position and rotation when device is added after its initialization. [ISXB-1555](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1555)\n-
+    Fixed PlayerInput component not working with C# Wrappers (ISXB-1535). This reverted
+    changes done to fix [ISXB-920](https://issuetra"}'
   assetStore:
     productId: 
-  fingerprint: e2c83221d2dc3fc990b017cbd3f9d0742649c8a8
+  fingerprint: 978211393e28699aba338ed157cef347ac565bbf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.13.1
+    minimumPackageVersion: 1.14.1
     minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.multiplayer.center@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -941,12 +1035,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.1
-    - 0.3.0
-    - 0.4.0
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -981,6 +1069,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -999,6 +1090,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1012,15 +1104,21 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.render-pipelines.universal@17.2.0
   testable: 0
   isDirectDependency: 1
   version: 17.2.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.universal@7d0c9d58f802
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.universal@002ea2b4fc19
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
-  displayName: Universal RP
+  displayName: Universal Render Pipeline
   author:
     name: 
     email: 
@@ -1034,51 +1132,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.35
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.26
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.2.0
     compatible:
     - 17.2.0
@@ -1095,7 +1148,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.2.0
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -1107,15 +1160,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -1143,6 +1196,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1161,6 +1217,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1169,17 +1226,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 7d0c9d58f802db4c8400649b9131810b1e54eea4
+  fingerprint: 002ea2b4fc19bfd5704c8913d36a19208ad0e314
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.2.0
     minimumUnityVersion: 6000.2.0a1
-- packageId: com.unity.test-framework@1.4.6
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework@1.5.1
   testable: 0
   isDirectDependency: 1
-  version: 1.4.6
-  source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.test-framework@5ac417e07314
+  version: 1.5.1
+  source: 2
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.test-framework@a6f5be5f149c
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1193,67 +1256,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.4-preview
-    - 0.0.29-preview
-    - 1.0.0
-    - 1.0.7
-    - 1.0.9
-    - 1.0.11
-    - 1.0.12
-    - 1.0.13
-    - 1.0.14
-    - 1.0.16
-    - 1.0.17
-    - 1.0.18
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.5
-    - 1.1.8
-    - 1.1.9
-    - 1.1.11
-    - 1.1.13
-    - 1.1.14
-    - 1.1.16
-    - 1.1.18
-    - 1.1.19
-    - 1.1.20
-    - 1.1.22
-    - 1.1.24
-    - 1.1.26
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
+    - 1.5.1
     compatible:
-    - 1.4.6
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
-    recommended: 1.4.6
+    - 1.5.1
+    recommended: 1.5.1
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1280,58 +1286,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638743524358990000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 9c6028f63a9b875e714b65de151b74e170152d49
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.4.6
+    version: 1.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where the architecture flag would
-    not be parsed for the StandaloneOSX platform.\n- Fixed an issue where the test
-    results ui and progress bar would not update before a user input, such as mouse
-    movement, was detected (UTF-609).\n- Fixed an issue where root of the test tree
-    was marked as NotRun, when all the tests were run and at least one test is ignore.\n-
-    Ensure that an error is raised and the test run is stopped if a playmode test
-    method exits playmode (DSTR-1091). \n- Async editmode tests are no longer throw
-    error when yielding a different value than null (DSTR-1066)\n- Fixed an issue
-    where the \"C# Test Script\" button was always disabled in One Column view in
-    Project tab. (DSTR-1083)\n- Async and UnityTest can now use ParametrizedIgnore
-    attribute. (DSTR-1068)\n- Corrected Timeout to only apply to the test method
-    and not the teardown methods, ensuring that TearDown is always run if a test
-    case times out (DSTR-1077).\n- Added a queue size indicator in the player side
-    test result ui. This can be used to track the progress of sending back result
-    data to the editor.\n- Parent node of the test tree is now updated after all
-    children finish running and have a result."}'
+  upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 5ac417e07314c8f6afba8109738c32b82d391e68
+  fingerprint: a6f5be5f149c799640cce1ac6aa4057426adc0c7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.4.6
-    minimumUnityVersion: 2019.4.1f1
+    minimumPackageVersion: 1.5.1
+    minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.timeline@1.8.7
   testable: 0
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1473,6 +1474,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -1491,6 +1495,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1514,12 +1519,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
     minimumUnityVersion: 2019.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ugui@6409a5846372
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ugui@423bc642aff1
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1537,19 +1548,10 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     compatible:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     recommended: 2.0.0
-    deprecated:
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1578,6 +1580,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1596,6 +1601,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1604,17 +1610,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6409a58463720c99ca39d6436ecacf09f9b6f64b
+  fingerprint: 423bc642aff1ba4fed4feef1d7b45461138cbb32
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.5
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.visualscripting@1.9.7
   testable: 0
   isDirectDependency: 1
-  version: 1.9.5
+  version: 1.9.7
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.visualscripting@1b53f46e931b
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1665,8 +1677,6 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     compatible:
-    - 1.9.5
-    - 1.9.6
     - 1.9.7
     - 1.9.8
     recommended: 1.9.8
@@ -1695,49 +1705,61 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638659692270900000
+  datePublishedTicks: 638835226812630000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
+    revision: 8292335505915a41ec7c5cc8e08ac436e24120a9
     path: 
   unityLifecycle:
-    version: 1.9.5
+    version: 1.9.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed \"NullReferenceException\" error
-    when returning to the State Graph from the Script Graph. [UVSB-1905](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-1905)\n-
-    Fixed compilation error when a graph contains a reference to a method with an
-    \"in\" parameter. [UVSB-2544](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2487)\n-
-    Added missing truncate function to Formula node [UVSB-2526](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2525)\n-
-    Fixed an error when creating a Script Graph asset in an empty project\n\n###
-    Changed\n- Updated deprecated EditorAnalytics APIs to new ones"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed a warning \"Unable to load Unity.Android.Gradle''s
+    referenced assembly NiceIO\" when scanning assemblies. [UVSB-2594](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2594)\n-
+    Fixed error when trying to load fuzzy finder on multi screen setup on Mac. [UVSB-2419](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2419)\n-
+    Fixed the `AOTSafeMode` project setting appearing in the Editor Preferences window.
+    It is now shown in the Project Settings tab for Visual Scripting. [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)\n-
+    Fixed possible crash on VisionOS. [UVSB-2565](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2565)\n\n###
+    Changed\n- The `AOTSafeMode` project setting has been marked as not visible,
+    it will no longer be included when calling `ConfigurationPanel.GetSearchKeywords`.
+    [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)"}'
   assetStore:
     productId: 
-  fingerprint: 1b53f46e931bea668e53f1feb0ac9138170c9455
+  fingerprint: 6279e2b7c4858e56cca7f367cd38c49ef66778c9
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.5
+    minimumPackageVersion: 1.9.7
     minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1768,6 +1790,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1786,6 +1811,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1799,12 +1825,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1835,6 +1867,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1853,6 +1888,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1866,12 +1902,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1901,6 +1943,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1919,6 +1964,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1932,12 +1978,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1968,6 +2020,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1986,6 +2041,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1999,12 +2055,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2035,6 +2097,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2053,6 +2118,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2066,12 +2132,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2102,6 +2174,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2120,6 +2195,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2133,12 +2209,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2173,6 +2255,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2191,6 +2276,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2204,12 +2290,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2248,6 +2340,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2266,6 +2361,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2279,12 +2375,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2315,6 +2417,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2333,6 +2438,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2346,12 +2452,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2382,6 +2494,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2400,6 +2515,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2413,12 +2529,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2449,6 +2571,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2467,6 +2592,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2480,12 +2606,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2516,6 +2648,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2534,6 +2669,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2547,12 +2683,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2583,6 +2725,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2601,6 +2746,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2614,12 +2760,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2650,6 +2802,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2668,6 +2823,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2681,12 +2837,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2721,6 +2883,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2739,6 +2904,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2752,12 +2918,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2788,6 +2960,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2806,6 +2981,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2819,12 +2995,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2863,6 +3045,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2881,6 +3066,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2894,12 +3080,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2933,6 +3125,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2951,6 +3146,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2964,12 +3160,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3000,6 +3202,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3018,6 +3223,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3031,12 +3237,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3087,6 +3299,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3105,6 +3320,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3118,12 +3334,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3154,6 +3376,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3172,6 +3397,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3185,12 +3411,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3228,6 +3460,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3246,6 +3481,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3259,12 +3495,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3295,6 +3537,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3313,6 +3558,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3326,12 +3572,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3370,6 +3622,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3388,6 +3643,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3401,12 +3657,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3445,6 +3707,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3463,6 +3728,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3476,12 +3742,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3520,6 +3792,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3538,6 +3813,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3551,12 +3827,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3611,6 +3893,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3629,6 +3914,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3642,12 +3928,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3682,6 +3974,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3700,6 +3995,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3713,12 +4009,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3761,6 +4063,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3779,6 +4084,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3792,12 +4098,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3842,6 +4154,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3860,6 +4175,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3873,12 +4189,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3909,6 +4231,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3927,6 +4252,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3940,12 +4266,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3988,6 +4320,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4006,6 +4341,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4019,12 +4355,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4059,6 +4401,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4077,6 +4422,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4090,12 +4436,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0a6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4126,6 +4478,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4144,6 +4499,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4157,12 +4513,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
-  source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd
+  source: 2
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4171,21 +4533,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: assets
+  type: 
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4205,17 +4558,20 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638236642220000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 469fe0d46bfc26fbb32a53885ca4d12abcdae4ae
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
     version: 2.0.5
@@ -4223,28 +4579,35 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092
+  fingerprint: 031a54704bffe39e6a0324909f8eaa4565bdebf2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.render-pipelines.core@17.2.0
   testable: 0
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.core@c9ea85becab9
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.core@bd0e8186c2bc
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
-  displayName: Core RP Library
+  displayName: Scriptable Render Pipeline Core
   author:
     name: 
     email: 
@@ -4261,104 +4624,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.35
-    - 9.0.0-preview.38
-    - 9.0.0-preview.60
-    - 9.0.0-preview.77
-    - 10.0.0-preview.30
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.2.0
     compatible:
     - 17.2.0
@@ -4383,7 +4648,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -4395,15 +4660,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -4419,6 +4684,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4437,6 +4705,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4445,17 +4714,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: c9ea85becab9b73ca758c4a31e238f012bd7386c
+  fingerprint: bd0e8186c2bcfea109ee5981b813a1b39a6382fb
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.2.0
     minimumUnityVersion: 6000.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.shadergraph@17.2.0
   testable: 0
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.shadergraph@caaa1fea73ae
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.shadergraph@f8b69e83dfdd
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4473,103 +4748,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.8
-    - 0.1.9
-    - 0.1.17
-    - 1.0.0-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.3-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.6-preview
-    - 1.1.8-preview
-    - 1.1.9-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.34
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.2.0
     compatible:
     - 17.2.0
@@ -4584,7 +4762,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.2.0
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -4596,15 +4774,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -4622,6 +4800,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4640,6 +4821,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4648,20 +4830,26 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: caaa1fea73ae87d71a6eba68b2e170e582e9e3af
+  fingerprint: f8b69e83dfddc9d7bbdcb1b4c60f079ffee88676
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.2.0
     minimumUnityVersion: 6000.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.render-pipelines.universal-config@17.0.3
   testable: 0
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.universal-config@52ebf816e072
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
-  displayName: Universal RP Config
+  displayName: Universal Render Pipeline Config
   author:
     name: 
     email: 
@@ -4684,7 +4872,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.2.0
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -4696,15 +4884,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -4720,6 +4908,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4738,6 +4929,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4746,17 +4938,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 52ebf816e07202b9474a410938f3eca10de27587
+  fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.2d.animation@10.1.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.animation@12.0.2
   testable: 0
   isDirectDependency: 0
-  version: 10.1.4
+  version: 12.0.2
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.animation@494a3b4e73a9
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.animation@34e0443c58ed
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4912,15 +5110,12 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     compatible:
-    - 10.1.4
-    - 10.2.0
-    - 10.2.1
-    - 11.0.0
-    recommended: 10.1.4
+    - 12.0.2
+    recommended: 12.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -4931,9 +5126,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -4953,15 +5148,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   keywords:
   - 2d
   - animation
@@ -4973,55 +5168,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638654459075740000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.1/manual/index.html
+  datePublishedTicks: 638863413369980000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c393ad93bdba3e78ebd30a5ccd2e6da5d8b92aba
+    revision: b0c25ab984f22def61409df195e4e0b210863e0d
     path: 
   unityLifecycle:
-    version: 10.1.4
+    version: 12.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Animation Preview window sometimes does
-    not display deformed Sprites. (DANB-705)\n- Sprite Resolver missing sprite previews
-    when dealing with large number of entries. (DANB-714)\n- Misaligned label previews
-    in Sprite Resolver''s inspector. (DANB-722)\n- Sprite Resolver component not
-    updated after Sprite Library Asset has been modified. (DANB-727)\n- Sprite Skin
-    breaks in the animation preview window after sprite swap. (DANB-743)\n- IK gizmos
-    are displayed in the SceneView when IKManager2D is active in Animation Preview
-    window. (DANB-738)\n- IK solvers are misaligned when bones have different depths.
-    (DANB-753)\n- Rendering issues with SRP Batching and Sprite mask. (DANB-760)\n-
-    Unable to drag sprites into empty rows of the Sprite Library Editor. (DANB-749)\n-
-    Sprite Skin deformation systems have outdated data after sprite swap. (DANB-766)\n-
-    Setting incorrect computer buffer size. (DANB-768)\n- Reenable editor tests.\n-
-    Bone buffer binding issues.\n- Sprite changed callback listeners."}'
+  upmReserved: '{"changelog":"### Fixed\n- Fix the icon quality of Sprite Swap Overlay
+    Window. (DANB-988)\n- Fix NullReferenceException error thrown by the Sprite Library
+    Editor window when entering Play Mode with Game View maximised (DANB-1019)"}'
   assetStore:
     productId: 
-  fingerprint: 494a3b4e73a9ae26677ef6e9fd6bff4ca643770a
+  fingerprint: 34e0443c58ed65e66d21023245d2862e066ab2e7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.1.4
-    minimumUnityVersion: 2023.1.0a1
-- packageId: com.unity.2d.pixel-perfect@5.0.3
+    minimumPackageVersion: 12.0.2
+    minimumUnityVersion: 6000.2.0b4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.pixel-perfect@5.1.0
   testable: 0
   isDirectDependency: 0
-  version: 5.0.3
+  version: 5.1.0
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.pixel-perfect@e3ae982b672d
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.pixel-perfect@2f2037a56bf7
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -5030,7 +5225,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -5063,12 +5258,15 @@ m_ResolvedPackages:
     - 5.0.3
     - 5.1.0
     compatible:
-    - 5.0.3
     - 5.1.0
-    recommended: 5.0.3
+    recommended: 5.1.0
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords:
   - pixel
   - perfect
@@ -5082,43 +5280,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638023910590000000
-  documentationUrl: 
+  datePublishedTicks: 638775664687690000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@5.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6dea8ac5bd6953acd64f1ac9d470912954b0c015
+    revision: 9ead9de91ee9fdb290bfcc223d793a449e7f8370
     path: 
   unityLifecycle:
-    version: 5.0.3
+    version: 5.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: 
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version to 2021.3\n\n###
+    Fixed\n- Update usage of URP namespace.\n- Fixed package dependencies."}'
   assetStore:
     productId: 
-  fingerprint: e3ae982b672dc7cca42a6303bdf53b84c69991da
+  fingerprint: 2f2037a56bf7822af81e9898037a0aac12686533
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 5.0.3
-    minimumUnityVersion: 2021.1.0a1
-- packageId: com.unity.2d.psdimporter@10.0.0
+    minimumPackageVersion: 5.1.0
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.psdimporter@11.0.1
   testable: 0
   isDirectDependency: 0
-  version: 10.0.0
+  version: 11.0.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.psdimporter@7c615ba3f6cc
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.psdimporter@0adcab25a8fd
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -5224,21 +5433,21 @@ m_ResolvedPackages:
     - 11.0.1
     - 12.0.0
     compatible:
-    - 10.0.0
-    - 10.1.0
-    - 10.1.1
-    recommended: 10.0.0
+    - 11.0.1
+    recommended: 11.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5257,6 +5466,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
   keywords:
   - 2d
   - psdimporter
@@ -5269,45 +5484,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638701225098860000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@10.0/manual/index.html
+  datePublishedTicks: 638854007431340000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@11.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c3aca8670c64fa4c4d765e1f4dfbc9b18fb80001
+    revision: baf565843471dd3cdc28af4c2a2aa0357ab1f9b1
     path: 
   unityLifecycle:
-    version: 10.0.0
+    version: 11.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added \n- Added support for Sprite Frame Editing
-    capabilities where data that are from the source file are locked by default.\n-
-    Added new ability to generate Tile asset and Tile Palette from PSDImporter."}'
+  upmReserved: '{"changelog":"### Fixed\n- Replaced deprecated non-generic IMGUI
+    TreeViewItem. (Case DANB-1004)\n- Fixed case Layer Separation toggle icon is
+    invisible when the icon state is \"separated\" with mousedown. (Case DANB-949)"}'
   assetStore:
     productId: 
-  fingerprint: 7c615ba3f6cc52c1d813b04f5226cf9f5338d965
+  fingerprint: 0adcab25a8fd3537d5829f344f6e2aa236d0cf8e
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.0.0
-    minimumUnityVersion: 6000.1.0a9
+    minimumPackageVersion: 11.0.1
+    minimumUnityVersion: 6000.2.0a10
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.sprite@70430dae3d22
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.sprite@28296e5d02fb
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -5341,6 +5566,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -5359,6 +5587,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -5367,17 +5596,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 70430dae3d2280442a663344dca8b600c4af9539
+  fingerprint: 28296e5d02fbf3ac81cc11ab1b39667f16a80778
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.2d.spriteshape@10.0.7
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.spriteshape@12.0.1
   testable: 0
   isDirectDependency: 0
-  version: 10.0.7
+  version: 12.0.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.spriteshape@9e35352ae135
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.spriteshape@1d246726c231
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5492,23 +5727,21 @@ m_ResolvedPackages:
     - 12.0.1
     - 13.0.0
     compatible:
-    - 10.0.7
-    - 10.1.0
-    - 11.0.0
-    recommended: 10.0.7
+    - 12.0.1
+    recommended: 12.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5544,44 +5777,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638654459104040000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.0/manual/index.html
+  datePublishedTicks: 638863413324610000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: baf581b10d05f7aa59c58b39f4b798829f703946
+    revision: b0c25ab984f22def61409df195e4e0b210863e0d
     path: 
   unityLifecycle:
-    version: 10.0.7
+    version: 12.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- DANB-731 \"System.IndexOutOfRangeException\"
-    is thrown when increasing Sprite Shape Mesh size beyond limits"}'
+  upmReserved: '{"changelog":"### Added\n- UUM-104210 Added option to disable Auto-Update
+    which avoids runtime cost to check for Changes."}'
   assetStore:
     productId: 
-  fingerprint: 9e35352ae135f602746220e7edc09eb95bbec530
+  fingerprint: 1d246726c2316e2e6dd7d2aefba54ec6640affa9
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.0.7
-    minimumUnityVersion: 2023.1.0a1
+    minimumPackageVersion: 12.0.1
+    minimumUnityVersion: 6000.2.0a10
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.tilemap@9ea75a73b918
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.tilemap@089d78c497f7
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -5634,6 +5877,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -5652,6 +5898,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -5660,17 +5907,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 9ea75a73b9186e21fea8aa137f0afa8fe2684e70
+  fingerprint: 089d78c497f71ceb4da57790ae3ffeb30b691411
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.2d.tilemap.extras@4.2.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.tilemap.extras@5.0.1
   testable: 0
   isDirectDependency: 0
-  version: 4.2.1
+  version: 5.0.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.tilemap.extras@011cbda330b2
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.tilemap.extras@2338d989ff2a
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5744,10 +5997,8 @@ m_ResolvedPackages:
     - 5.0.1
     - 6.0.0
     compatible:
-    - 4.2.1
-    - 4.3.0
-    - 4.3.1
-    recommended: 4.2.1
+    - 5.0.1
+    recommended: 5.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.tilemap
@@ -5785,44 +6036,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638701225114730000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.2/manual/index.html
+  datePublishedTicks: 638863413340320000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 664ef82e84bcd13814cd85b018377d9d7eed71a5
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: b0c25ab984f22def61409df195e4e0b210863e0d
     path: 
   unityLifecycle:
-    version: 4.2.1
+    version: 5.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- [AutoTile] Fix AutoTile Create Asset
-    menu item"}'
+  upmReserved: '{"changelog":"### Fixed\n- [AutoTileEditor] Fix exception thrown
+    when texture count is reduced"}'
   assetStore:
     productId: 
-  fingerprint: 011cbda330b260b398a1623b0a3987e902c2386f
+  fingerprint: 2338d989ff2aec99e03da44e42ae2faf1ebc037d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.2.1
-    minimumUnityVersion: 6000.1.0a9
-- packageId: com.unity.2d.aseprite@1.2.1
+    minimumPackageVersion: 5.0.1
+    minimumUnityVersion: 6000.2.0a10
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.aseprite@2.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.2.1
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.aseprite@a5eee3981da4
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.aseprite@f6e7e126ac6d
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5864,16 +6125,12 @@ m_ResolvedPackages:
     - 2.0.1
     - 3.0.0
     compatible:
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    recommended: 1.2.5
+    - 2.0.1
+    recommended: 2.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 6.0.6
+    version: 11.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -5884,9 +6141,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.7
+    version: 11.0.1
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -5925,47 +6182,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638727039468480000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.2/manual/index.html
+  datePublishedTicks: 638863413307310000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: c5f809f93ebb310f827644e716ccdada309a879e
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: b0c25ab984f22def61409df195e4e0b210863e0d
     path: 
   unityLifecycle:
-    version: 1.2.1
+    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where Sprites smaller than
-    the tile size would be wrongly placed in the tile palette.\n- Fixed an issue
-    where the importer inspector would throw an exception if an animation clip was
-    empty of data. (DANB-788)\n- Fixed an issue where the Z-Index would not be taken
-    into account when the import mode is set to \"Merge Frame\". (DANB-787)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where the \"Export Animation
+    Assets\"-button had an additional offset of 15 px to the right. (DANB-1000)"}'
   assetStore:
     productId: 
-  fingerprint: a5eee3981da4294e13c48d7cbc8a6973e177b165
+  fingerprint: f6e7e126ac6d10bfdf1ae9ac5b035bfe1619ae0d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.2.1
-    minimumUnityVersion: 6000.1.0a9
-- packageId: com.unity.splines@2.7.2
+    minimumPackageVersion: 2.0.1
+    minimumUnityVersion: 6000.2.0a10
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.splines@2.8.1
   testable: 0
   isDirectDependency: 0
-  version: 2.7.2
+  version: 2.8.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.splines@d3e1e500c9a0
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.splines@b909627b5095
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -5974,7 +6238,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Tool
-  type: tool
+  type: 
   description: Work with curves and paths. Use the Splines package to generate objects
     and behaviors along paths, create trajectories, and draw shapes.
   errors: []
@@ -6004,21 +6268,23 @@ m_ResolvedPackages:
     - 2.8.0
     - 2.8.1
     compatible:
-    - 2.7.2
-    - 2.8.0
     - 2.8.1
-    recommended: 2.7.2
+    recommended: 2.8.1
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.settings-manager
     version: 1.0.3
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.3.2
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.settings-manager
-    version: 2.0.1
+    version: 2.1.0
   keywords:
   - spline
   - curve
@@ -6031,59 +6297,59 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638678084074740000
-  documentationUrl: 
+  datePublishedTicks: 638822348021470000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: f8048bc97f9cc23fe3db45eceb767e6ab97f37f5
+    revision: ae2c33950924058f2912683d16e02268813ce44a
     path: 
   unityLifecycle:
-    version: 2.7.2
+    version: 2.8.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-315] Fixed a bug where the `DrawSplineTool`
-    icon was missing in the tools overlay.  \n- [STO-3434] Fixed a bug where the
-    `DrawSplineTool` would prevent the use of the view tool.\n- [STO-3435] Fixed
-    a bug where the `DrawSplineTool` would not display the tool settings anymore.
-    \n- [SPLB-296] Fixed a bug where a log message would appear in the console when
-    2 knots are at the same position with 0-length tangents.\n- [SPLB-304] Fixed
-    a bug where an exception would be thrown when using `SplineInstantiate` with
-    linear distance instantiate method and multiple splines. \n- Fixed some failures
-    related to the inline API documentation.\n- [SPLB-302] Fixed a bug where an exception
-    would be thrown when adding a knot to a closed spline from inspector.\n- [SPLB-311]
-    Fixed a bug where `SplineAnimate` component would not function properly with
-    non-uniform scale transforms.\n- Fixed compilation errors in builds\n- [SPLB-310]
-    Fixed mesh extrude not being saved when a change is applied to a mesh asset.
-    \n- [SPLB-303] Fixed a bug where spline section foldout labels (shape extrude,
-    geometry, advanced) did not unfold the sections when clicked.\n- [SPLB-294] Fixed
-    a bug where adding new splines by using the `SplineContainer` inspector would
-    dirty all open scenes."}'
+  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-345] Fixed a bug which was causing
+    null reference exceptions during shutdown in IL2CPP builds.\n- [SPLB-337] Fixed
+    a bug where `JoinSplinesOnKnots` would throw a null reference exception when
+    one of the splines was linked with another spline.\n- [SPLB-341] Fixed a bug
+    where changing the tangent mode on a knot on a prefab would not persist when
+    entering play mode.\n\n### Changed\n- Internal code cleanup to align with release
+    standards."}'
   assetStore:
     productId: 
-  fingerprint: d3e1e500c9a0fa3a1e812117108982dd612c2e27
+  fingerprint: b909627b5095061d48761597bbb8384d6f04e510
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.7.2
+    minimumPackageVersion: 2.8.1
     minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.searcher@4.9.3
   testable: 0
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6133,6 +6399,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -6151,6 +6420,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -6165,12 +6435,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.9.2
     minimumUnityVersion: 2019.1.0a1
-- packageId: com.unity.burst@1.8.18
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.burst@1.8.23
   testable: 0
   isDirectDependency: 0
-  version: 1.8.18
+  version: 1.8.23
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.burst@616862665d8c
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.burst@6aff1dd08a0c
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6325,11 +6601,6 @@ m_ResolvedPackages:
     - 1.8.23
     - 1.8.24
     compatible:
-    - 1.8.18
-    - 1.8.19
-    - 1.8.20
-    - 1.8.21
-    - 1.8.22
     - 1.8.23
     - 1.8.24
     recommended: 1.8.24
@@ -6353,54 +6624,60 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638622972693870000
+  datePublishedTicks: 638856629417660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 594a8d8794083be96fa510b2deea0954f971ecc9
+    revision: 0a4fca7c4d2ed5ed3ce7fd57c6944390dd4745a7
     path: 
   unityLifecycle:
-    version: 1.8.18
+    version: 1.8.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added the `UNITY_BURST_DISABLE_COMPILATION`
-    environment variable as an alternative to the `--burst-disable-compilation` command-line
-    argument\n\n### Removed\n\n### Changed\n\n### Fixed\n- Static fields used in
-    static constructors were sometimes incorrectly set to read only, despite being
-    written.\n- Fixed a case of the editor getting stuck loading during a domain
-    reload if Burst was set to synchronous compilation\n- Fixed hashing bug that
-    could occur when method signatures differed only by generic parameter count\n-
-    Branches within if (cpufeaturesupported) blocks could cause the transform pass
-    to miss identify which blocks are supporting which features, leading to errors
-    at compile time about intrinsics not being in matching blocks.\n- Fixed ''cannot
-    open input file ucrt.lib'' error when building for Universal Windows Platform
-    and targeting SDK 10.0.26100.0\n\n### Known Issues"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed \"Building for ''visionOS-simulator'',
+    but linking in object file built for ''visionOS''\" errors that could occur in
+    1.8.22\n- Fixed crash that could occur during Burst compilation for methods with
+    `Span<T>` or `ReadOnlySpan<T>` parameter types\n- Fixed Burst compilation error
+    related to `Aliasing.ExpectNotAliased` failing because of unexpected aliasing
+    of `[NativeContainer]` types\n\n### Changed\n- On QNX and Embedded Linux, the
+    `BurstDebugInformation_DoNotShip` folder is now prefixed with the player build
+    directory name instead of the product name."}'
   assetStore:
     productId: 
-  fingerprint: 616862665d8c8ffe643d505aebb5de2ee73b0ab0
+  fingerprint: 6aff1dd08a0c2f92ddb7f56ec033a5cb88967056
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.18
-    minimumUnityVersion: 2020.3.0a1
+    minimumPackageVersion: 1.8.23
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.mathematics@1.3.2
   testable: 0
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6450,6 +6727,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -6468,6 +6748,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -6484,12 +6765,18 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.3.2
     minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.collections@2.5.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collections@2.5.7
   testable: 0
   isDirectDependency: 0
-  version: 2.5.1
+  version: 2.5.7
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.collections@56bff8827a7e
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.collections@d49facba0036
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6582,9 +6869,6 @@ m_ResolvedPackages:
     - 2.6.0-pre.3
     - 2.6.0-pre.4
     compatible:
-    - 2.5.1
-    - 2.5.2
-    - 2.5.3
     - 2.5.7
     - 2.6.0-exp.2
     - 2.6.0-pre.3
@@ -6593,30 +6877,32 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.burst
-    version: 1.8.17
+    version: 1.8.19
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.4.6
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   keywords:
   - dots
   - collections
@@ -6629,46 +6915,58 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638621282722800000
+  datePublishedTicks: 638803020568560000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 5b0dea6b455f5df005c19fa984ddfa237d6cd707
+    revision: 2520fc806449bf4c278c9031eb21f0a6aeccda46
     path: 
   unityLifecycle:
-    version: 2.5.1
+    version: 2.5.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n* Updated Burst dependency to version
-    1.8.17\n* Updated Unity Test Framework dependency to version 1.4.5\n* Updated
-    entities packages dependencies\n\n### Fixed\n* Certain cases would cause an ILPostProcessor
-    to fail, blocking compilation, but no more."}'
+  upmReserved: '{"changelog":"### Changed\n\n* Updated the `com.unity.entities` dependency
+    to version `1.3.14`\n* Updated the `com.unity.burst` dependency to version `1.8.19`\n*
+    Updated the `com.unity.nuget.mono-cecil` dependency to version `1.11.5`\n* Updated
+    the `com.unity.test-framework dependency` to version `1.4.6`\n* The minimum supported
+    editor version is now 2022.3.20f1\n\n### Fixed\n\n* UnsafeQueue memory leak due
+    to OnDomainUnload callback being discarded by Burst."}'
   assetStore:
     productId: 
-  fingerprint: 56bff8827a7ef6d44fcee4f36e558a74da89c1a0
+  fingerprint: d49facba0036aa0e1508296262f9d93b44d1ab3b
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.5.1
-    minimumUnityVersion: 2022.3.11f1
+    minimumPackageVersion: 2.5.7
+    minimumUnityVersion: 2022.3.20f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.rendering.light-transport@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.rendering.light-transport@aee0c3e72fd0
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6697,23 +6995,23 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.collections
-    version: 2.5.1
+    version: 2.5.7
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
+    version: 1.11.5
   - name: com.unity.test-framework.performance
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   keywords:
@@ -6728,6 +7026,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -6746,6 +7047,7 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -6754,17 +7056,23 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: aee0c3e72fd00ea0e86d5c2b7e72137fd32ea414
+  fingerprint: 2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
     minimumUnityVersion: 2023.3.0b1
-- packageId: com.unity.2d.common@9.0.7
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.common@11.0.1
   testable: 0
   isDirectDependency: 0
-  version: 9.0.7
+  version: 11.0.1
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.common@bb1fc9b3d81b
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.2d.common@dd402daace1b
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6849,11 +7157,8 @@ m_ResolvedPackages:
     - 11.0.1
     - 12.0.0
     compatible:
-    - 9.0.7
-    - 9.1.0
-    - 9.1.1
-    - 10.0.0
-    recommended: 9.0.7
+    - 11.0.1
+    recommended: 11.0.1
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6868,7 +7173,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
@@ -6897,46 +7202,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638654459039420000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.0/manual/index.html
+  datePublishedTicks: 638840901264720000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@11.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c393ad93bdba3e78ebd30a5ccd2e6da5d8b92aba
+    revision: 98a4faf22484a3679f8d6a3b60b5d07f5e652cd7
     path: 
   unityLifecycle:
-    version: 9.0.7
+    version: 11.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- DANB-638 Fixed Error \"InvalidOperationException:
-    HTTP/1.1 404 Not Found\" logged when entering Play Mode in 2D Common Sample Scene\n-
-    DANB-637 Fixed Sprite Atlases included in the 2D Common Package Sample \"Sprite
-    Atlas Samples\" are blurry even though they are uncompressed"}'
+  upmReserved: '{"changelog":"### Changed\n- Added support code for PolySpatial."}'
   assetStore:
     productId: 
-  fingerprint: bb1fc9b3d81b3bb452c6708e8c088fe4224a0369
+  fingerprint: dd402daace1b7dbeb70cb9e7ae044cc4b10f989a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 9.0.7
-    minimumUnityVersion: 2023.1.0a1
-- packageId: com.unity.settings-manager@2.0.1
+    minimumPackageVersion: 11.0.1
+    minimumUnityVersion: 6000.2.0a9
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.1
+  version: 2.1.0
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -6945,7 +7257,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   errors: []
@@ -6961,9 +7273,8 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.1.0
     compatible:
-    - 2.0.1
     - 2.1.0
-    recommended: 2.0.1
+    recommended: 2.1.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -6976,43 +7287,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
+  datePublishedTicks: 638792046006940000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    revision: 6eb5ed85eaf3276cc09f0cc4fc3311c72f0fc196
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: 
+  upmReserved: '{"changelog":"### Changes\n\n- Enable Auto Reference on main assembly.\n\n###
+    Bug Fixes\n\n- [case: PBLD-56] Added tooltip to \"Options\" gear icon to specify
+    that context menu items are relevant only to the selected category."}'
   assetStore:
     productId: 
-  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
+  fingerprint: 41738c27519039c335849eb78949382f4d7a3544
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.1
-    minimumUnityVersion: 2018.4.0a1
-- packageId: com.unity.nuget.mono-cecil@1.11.4
+    minimumPackageVersion: 2.1.0
+    minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.nuget.mono-cecil@1.11.5
   testable: 0
   isDirectDependency: 0
-  version: 1.11.4
+  version: 1.11.5
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7021,16 +7344,16 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: library
+  type: 
   description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
 
 
     This
     package is intended for internal Unity use only. Most Unity users will be better
-    suite using the existing community tooling.
+    suited using the existing community tooling.
 
-    To avoid assembly clashes, please
-    use this package if you intend to use Mono.Cecil.'
+    To avoid assembly clashes,
+    please use this package if you intend to use Mono.Cecil.'
   errors: []
   versions:
     all:
@@ -7043,7 +7366,6 @@ m_ResolvedPackages:
     - 1.11.4
     - 1.11.5
     compatible:
-    - 1.11.4
     - 1.11.5
     recommended: 1.11.5
     deprecated: []
@@ -7058,43 +7380,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637852971930000000
-  documentationUrl: 
+  datePublishedTicks: 638729992509040000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.nuget.mono-cecil@1.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
-    revision: d0133ce672d724694b56bfd20672acf6f8737fec
+    revision: ab40507b5d82f57a4f34b6d0eacca1d6b170341d
     path: 
   unityLifecycle:
-    version: 1.11.4
+    version: 1.11.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: 
+  upmReserved: '{"changelog":"* This is a verified release of the com.unity.nuget.mono-cecil
+    with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
+    from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
   assetStore:
     productId: 
-  fingerprint: d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62
+  fingerprint: d78732e851eb42273c8e4d97993d3a94b207e570
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.11.4
-    minimumUnityVersion: 2018.4.0a1
-- packageId: com.unity.test-framework.performance@3.0.3
+    minimumPackageVersion: 1.11.5
+    minimumUnityVersion: 2019.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework.performance@3.1.0
   testable: 0
   isDirectDependency: 0
-  version: 3.0.3
+  version: 3.1.0
   source: 1
-  resolvedPath: D:\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.test-framework.performance@fb0dc592af8b
+  resolvedPath: D:\ProjectGame\DoAn_MyGame\GamePlatform\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7103,7 +7437,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Package that extends Unity Test Framework package. Adds performance
     testing capabilities and collects configuration metadata.
   errors: []
@@ -7162,18 +7496,17 @@ m_ResolvedPackages:
     - 3.0.3
     - 3.1.0
     compatible:
-    - 3.0.3
     - 3.1.0
-    recommended: 3.0.3
+    recommended: 3.1.0
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -7191,39 +7524,48 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638301960470000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.0/manual/index.html
+  datePublishedTicks: 638792643567670000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
-    revision: 10b82691b2d9f4e4aa8385c8d797c7e544bac548
+    revision: 6126c0ee357019ed762100ffeca520029274e869
     path: 
   unityLifecycle:
-    version: 3.0.3
+    version: 3.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"## Fixed \n- Fixed issue where exception in OnTestEnded
-    callback would result in EndTest method not finalising properly\n### Changed\n-
-    Temporarily removed \"Open Script\" from Performance Benchmark Window\n- Some
-    clarifications in documentation were added (\"Extension\" naming changed to \"Package\",
-    Package limitations clarified)"}'
+  upmReserved: '{"changelog":"### Added\n- Added an optional command-line argument
+    \"perfTestResults\" to control the target location of performance test run results
+    file.\n### Fixed\n- Warmup cycles no longer record GC measurements.\n- Setup
+    and Cleanup cycles no longer contribute to GC measurements."}'
   assetStore:
     productId: 
-  fingerprint: fb0dc592af8b524f1a06c50d7caf95552f1bcd2f
+  fingerprint: 92d1d09a72ed696fa23fd76c675b29d211664b50
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.3
+    minimumPackageVersion: 3.1.0
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: 3ebee204229baa86afee47cd9144e930ae2e7254
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+m_BuiltInPackagesHash: 4a0237811440af8948b7808e46555399b3f7b3c8
