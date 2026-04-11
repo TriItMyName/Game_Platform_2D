@@ -79,7 +79,4 @@ This project is also a practical learning process to improve my gameplay program
 - Redesign selected maps to increase exploration quality.
 - Complete boss fights with unique mechanics.
 - Improve UI/UX and settings systems.
-- Further optimize performance for low-end machines.
-
-## Note
-This is a learning project and is still under active development. The README will continue to be updated as new milestones are completed.
+- Further optimize performance for low-end machines..
