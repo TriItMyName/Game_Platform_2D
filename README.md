@@ -74,7 +74,7 @@ This project is also a practical learning process to improve my gameplay program
 ![MainMenu Screenshot](./Assets/Other/Images/MenuGameWin.png)
 
 ## Next Update Plan
-- Improve combat feel (combo flow, timing, and hit feedback).
+- Improve combat feel (timing, and hit feedback).
 - Add new enemy types and expand AI behaviors.
 - Redesign selected maps to increase exploration quality.
 - Complete boss fights with unique mechanics.
