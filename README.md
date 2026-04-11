@@ -53,25 +53,25 @@ This project is also a practical learning process to improve my gameplay program
 
 ### Ingame Screenshots
 - **Main Menu UI**
-![MainMenu Screenshot](./Assets/Others/Images/Menu.png)
+![MainMenu Screenshot](./Assets/Other/Images/Menu.png)
 - **Tutorial Scene**
-![MainMenu Screenshot](./Assets/Others/Images/MenuMap.png)
+![MainMenu Screenshot](./Assets/Other/Images/MenuMap.png)
 - **Map 1**
-![MainMenu Screenshot](./Assets/Others/Images/Map1.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map1.png)
 - **Map 2**
-![MainMenu Screenshot](./Assets/Others/Images/Map2.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map2.png)
 - **Map 3**
-![MainMenu Screenshot](./Assets/Others/Images/Map3.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map3.png)
 - **Map 4**
-![MainMenu Screenshot](./Assets/Others/Images/Map4.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map4.png)
 - **Map 5**
-![MainMenu Screenshot](./Assets/Others/Images/Map5.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map5.png)
 - **Map 6**
-![MainMenu Screenshot](./Assets/Others/Images/Map6.png)
+![MainMenu Screenshot](./Assets/Other/Images/Map6.png)
 - **GameOver Menu**
-![MainMenu Screenshot](./Assets/Others/Images/MenuGameOver.png)
+![MainMenu Screenshot](./Assets/Other/Images/MenuGameOver.png)
 - **GameOver Menu**
-![MainMenu Screenshot](./Assets/Others/Images/MenuGameWin.png)
+![MainMenu Screenshot](./Assets/Other/Images/MenuGameWin.png)
 
 ## Next Update Plan
 - Improve combat feel (combo flow, timing, and hit feedback).
